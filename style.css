@@ -1,0 +1,113 @@
+/* Basic reset and styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: black
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* Styles for the product display page */
+.product {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.product img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+}
+
+.product h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product .price {
+    color: #e74c3c;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 0.9em;
+    color: #555;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #333; /* Background color of the nav bar */
+    padding: 10px;
+}
+
+.logo {
+    max-height: 50px; /* Adjust size of the logo */
+    margin-right: 20px; /* Space between logo and nav items */
+}
+
+nav {
+    display: flex;
+    gap: 20px; /* Space between navigation links */
+}
+
+nav h3 {
+    margin: 0;
+}
+
+nav a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Font size */
+    padding: 10px 15px; /* Padding around links */
+    display: block;
+}
+
+nav a:hover {
+    background-color: #575757; /* Background color on hover */
+    border-radius: 5px; /* Rounded corners */
+}
+h2, h3, h4 {
+    margin: 0.5em 0;
+}
+
+/* Styles for the home page */
+.home-page {
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 600px; /* Adjust as needed */
+    margin-bottom: 20px;
+}
+
+.home-page h2, .home-page h3, .home-page h4 {
+    color: #333;
+}
+
+
+h6{
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+}
